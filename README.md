@@ -2,6 +2,11 @@
 
 A Windows port of the bettrWrite text processing tool that lets you correct, summarize, or transform selected text using AI models with configurable keyboard shortcuts.
 
+1.  Open your terminal (Command Prompt or PowerShell).
+2.  Navigate to the directory where `bettrwrite.bat` is located (e.g., using `cd
+C:\Users\hrushik\.config\bettrwrite`).
+3.  Then, simply type `bettrwrite.bat` and press Enter.
+
 ## Features
 
 - **Global Hotkeys**: Process text from any Windows application
