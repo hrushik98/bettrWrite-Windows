@@ -204,3 +204,6 @@ Feel free to submit issues or pull requests for:
 ## License
 
 Same as the original bettrWrite project
+
+## AI honesty
+coded with claude assistance: https://claude.ai/share/9b6bfaaa-0c7b-40bc-bacb-083441cbecc2
