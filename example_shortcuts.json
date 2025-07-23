@@ -1,0 +1,88 @@
+{
+    "settings": {
+      "openai_api_key": "YOUR_API_KEY_OR_USE_ENV",
+      "ollama_base_url": "http://localhost:11434"
+    },
+    "shortcuts": [
+      {
+        "id": "grammar_correct",
+        "keys": "ctrl+e",
+        "backend": "openai",
+        "model": "gpt-4o",
+        "prompt": "You are a helpful assistant that corrects grammar and spelling errors in the provided text without changing its meaning or tone. Only fix errors - don't rewrite the text. Output ONLY the corrected text.",
+        "openai_options": {
+          "temperature": 0.3
+        }
+      },
+      {
+        "id": "summarize_short",
+        "keys": "ctrl+shift+s",
+        "backend": "ollama",
+        "model": "llama3.2:latest",
+        "prompt": "Summarize the following text into a single short sentence. Output ONLY the summary sentence.",
+        "ollama_options": {
+          "temperature": 0.5
+        }
+      },
+      {
+        "id": "translate_spanish",
+        "keys": "ctrl+alt+s",
+        "backend": "openai",
+        "model": "gpt-4o",
+        "prompt": "Translate the following text to Spanish. Maintain the tone and style. Output ONLY the Spanish translation.",
+        "openai_options": {
+          "temperature": 0.4
+        }
+      },
+      {
+        "id": "make_formal",
+        "keys": "ctrl+shift+f",
+        "backend": "openai",
+        "model": "gpt-4o",
+        "prompt": "Rewrite the following text in a formal, professional tone suitable for business communication. Output ONLY the rewritten text.",
+        "openai_options": {
+          "temperature": 0.5
+        }
+      },
+      {
+        "id": "explain_code",
+        "keys": "ctrl+alt+e",
+        "backend": "ollama",
+        "model": "codellama:latest",
+        "prompt": "Explain what this code does in simple terms. Be concise but clear. Output ONLY the explanation.",
+        "ollama_options": {
+          "temperature": 0.3
+        }
+      },
+      {
+        "id": "bullet_points",
+        "keys": "ctrl+alt+b",
+        "backend": "openai",
+        "model": "gpt-4o",
+        "prompt": "Convert the following text into clear, concise bullet points. Output ONLY the bullet points using • symbols.",
+        "openai_options": {
+          "temperature": 0.4
+        }
+      },
+      {
+        "id": "fix_punctuation",
+        "keys": "ctrl+alt+p",
+        "backend": "ollama",
+        "model": "llama3.2:latest",
+        "prompt": "Fix only the punctuation in the following text. Do not change any words, just add or correct punctuation marks. Output ONLY the corrected text.",
+        "ollama_options": {
+          "temperature": 0.1
+        }
+      },
+      {
+        "id": "simplify",
+        "keys": "ctrl+shift+e",
+        "backend": "openai",
+        "model": "gpt-4o",
+        "prompt": "Simplify this text to be understood by a 12-year-old. Use simple words and shorter sentences. Output ONLY the simplified text.",
+        "openai_options": {
+          "temperature": 0.6
+        }
+      }
+    ]
+  }
